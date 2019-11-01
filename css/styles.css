@@ -3,6 +3,7 @@ img.bubble {
   top: 80%;
   left: 80%;
   position: relative;
+  width: 150
 }
 
 #responces1 {
@@ -60,6 +61,8 @@ form {
 }
 
 .robot {
+  height: 300;
+  width: 300;
   float: right;
   margin-right: 100px;
   margin-top: 5%;
