@@ -1,0 +1,31 @@
+img.bubble {
+
+    float: right
+    top: 80%;
+    left: 80%;
+    position: relative;
+}
+
+#responces1 {
+    font-style: italic;
+    top: 80%;
+    left: 75%;
+    position: relative;
+    color: #ed4e4e;
+     border-radius: 50%;
+       background: white;
+}
+
+container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+em {
+    color: #ed4e4e;
+}
+
+p {
+    margin-top: 7%;
+}
