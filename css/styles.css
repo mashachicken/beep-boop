@@ -1,12 +1,12 @@
-img.bubble {
+.bubble {
   float: right
   top: 80%;
   left: 80%;
   position: relative;
-  width: 150
+  width: 150px;
 }
 
-#responces1 {
+/* #responces1 {
   font-style: italic;
   top: 80%;
   left: 75%;
@@ -14,7 +14,7 @@ img.bubble {
   color: #ed4e4e;
    border-radius: 50%;
    background: white;
-}
+} */
 
 container2 {
   position: relative;
@@ -61,8 +61,8 @@ form {
 }
 
 .robot {
-  height: 300;
-  width: 300;
+  height: 300px;
+  width: 300px;
   float: right;
   margin-right: 100px;
   margin-top: 5%;
