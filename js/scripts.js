@@ -1,4 +1,4 @@
-(document).ready(function(){
+(document).ready(function(){ //user
     $("form#enterNumber").submit(function(event) {
       event.preventDefault();
   $(".bubble").hide()
@@ -11,7 +11,7 @@
 });
 
 //bussiness
-function beepBoop(numberInput) {
+  function beepBoop(numberInput) {
     for (var i=0; i<=numberInput; i++) {
      if (i.toString().includes("3")) {
         newArray.push("I'm sorry, Dave. I'm afraid I can't do that.");
@@ -19,3 +19,7 @@ function beepBoop(numberInput) {
             newArray.push("boop!")
         } else if (i.toString().includes("1")) {
             newArray.push("beep!")
+          };
+return newArray;
+};
+var newArray = [];
