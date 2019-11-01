@@ -1,67 +1,66 @@
 img.bubble {
-
-    float: right
-    top: 80%;
-    left: 80%;
-    position: relative;
+  float: right
+  top: 80%;
+  left: 80%;
+  position: relative;
 }
 
 #responces1 {
-    font-style: italic;
-    top: 80%;
-    left: 75%;
-    position: relative;
-    color: #ed4e4e;
-     border-radius: 50%;
-       background: white;
+  font-style: italic;
+  top: 80%;
+  left: 75%;
+  position: relative;
+  color: #ed4e4e;
+   border-radius: 50%;
+   background: white;
 }
 
 container2 {
-    position: relative;
-    text-align: center;
-    color: white;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 em {
-    color: #ed4e4e;
+  color: #ed4e4e;
 }
 
 p {
-    margin-top: 7%;
+  margin-top: 7%;
 }
 #result{
-    display: none;
+  display: none;
 }
 
 h2 {
-    color: #ed4e4e;
-    text-align: center;
-    background-color: #4f8c76;
+  color: #ed4e4e;
+  text-align: center;
+  background-color: #4f8c76;
 }
 
 body {
-    background-color: #cae8d2;
+  background-color: #cae8d2;
 }
 
 button {
-    font-size: 10px;
-    height:35px;
-    width:45px;
-    border-radius: 12px;
-    background-color: white;
-    color:  #4f8c76;
+  font-size: 10px;
+  height:35px;
+  width:45px;
+  border-radius: 12px;
+  background-color: white;
+  color:  #4f8c76;
 }
 
 #noResult {
-    display: none;
+  display: none;
 }
 
 form {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .robot {
-    float: right;
-    margin-right: 100px;
-    margin-top: 5%;
+  float: right;
+  margin-right: 100px;
+  margin-top: 5%;
 }
