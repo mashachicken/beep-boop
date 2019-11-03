@@ -1,25 +1,13 @@
 .bubble {
-  float: right
-  top: 80%;
-  left: 80%;
-  position: relative;
   width: 150px;
-}
-
-#responces1 {
-  font-style: italic;
-  top: 80%;
-  left: 75%;
-  position: relative;
-  color: #ed4e4e;
-   border-radius: 50%;
-   background: white;
+  position: absolute;
+  margin-left: 23cm;
 }
 
 container2 {
+  float: right;
   position: relative;
-  text-align: center;
-  color: white;
+  display: inline-block;
 }
 
 em {
@@ -34,13 +22,14 @@ p {
 }
 
 h2 {
-  color: #f56342;
+  color: white;
   text-align: center;
   background-color: #4f8c76;
 }
 
 body {
   background-color: #cae8d2;
+  font-family: Playful Display;
 }
 
 button {
