@@ -3,8 +3,8 @@ $(document).ready(function(){
     event.preventDefault();
     var numberInput = parseInt($("input").val());
     var result = beepBoop(numberInput)
-    $("#responces1").append(result)
-    console.log(newArray)
+    $("#responces1").append("<br>" + "<li>" + result +"</li>")
+    console.log(result)
     });
 });
 var newArray = [];
