@@ -3,12 +3,12 @@ $(document).ready(function(){
     event.preventDefault();
     var numberInput = parseInt($("input").val());
     var result = beepBoop(numberInput)
-    $("#responces1").append("<br>" + "<li>" + result +"</li>")
+    $("#responces1").html(result)
     console.log(result)
     });
 });
-var newArray = [];
 function beepBoop(numberInput) {
+  var newArray = [];
   for (var i=0; i<=numberInput; i++) {
     if (i.toString().includes("3")) {
       newArray.push("I'm sorry, Dave. I'm afraid I can't do that.");
